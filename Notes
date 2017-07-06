@@ -1,0 +1,17 @@
+Idea: Create a video streaming website like chatroulette with random people. 
+      The difference is that we will allow users to select catagories/topics of discussion. 
+
+Functionalities: 
+- Allow for video streaming and text box
+  - 2 people for now. Later add functionality for 2-6 people
+- topics/catagories
+  - No topic
+  - random/quick search
+  - Sports
+  - News
+  - Custom - related search. Keyword search.
+- Number of people in in the category
+- accounts 
+  - So that people can become friend or report inappropriate activities
+- Advance search
+- Location search
