@@ -1,0 +1,69 @@
+<html>
+
+<head>
+    <title>Node Chat</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/home.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+</head>
+
+<body>
+
+    <div class="container text-center " id="catagory">
+        <h1> Node Chat</h1>
+        <p>Video chat with random people like omegle or chat roulette using Node, Socket.io and WebRTC.<br></p>
+        <p>Please select a catagory</p>
+        <a href ="#" class="btn btn-primary btn-lg" id="basketball"> Basketball </a> 
+        <a href ="#" class="btn btn-primary btn-lg" id="news"> News </a> 
+        <a href ="#" class="btn btn-primary btn-lg" id="anything"> Anything </a> 
+    </div>
+
+    <div class="container text-center " id="landing">
+        <h1> Node Chat</h1>
+        <p>Video chat with random people like omegle or chat roulette using Node, Socket.io and WebRTC.<br>
+        <p id="count"></p>
+        <a herf ="#" class="btn btn-primary btn-lg" id="back"> Back </a> 
+        <a href ="#" class="btn btn-primary btn-lg" id="join"> Go! </a> 
+    </div>
+
+
+    <div class="container text-center" id="stat">
+        <h2 id="msgs"></h1>
+    </div>
+
+    <div class="col-sm-4">
+        <video id="localVideo" ></video>
+        <div id="remoteVideos"></div>
+
+
+
+        <div id="tray">
+            <a href="#" class="btn btn-primary btn-lg" id="leave">Leave</a>
+            <a href="#" class="btn btn-primary btn-lg" id="next">Next</a>
+        </div>
+
+    </div>
+
+    <div id="convo" class="col-sm-8">
+    <nav>
+        <ul id="messages"></ul>
+        <form action="">
+            <input id="m" autocomplete="off" /><button>Send</button>
+        </form>
+    </nav>
+    </div>
+
+
+    <script src="https://simplewebrtc.com/latest-v2.js"></script>
+    <script src="https://cdn.webrtc-experiment.com/DetectRTC.js"></script>
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <script src="https://cdn.socket.io/socket.io-1.4.5.js"></script>
+    <script src="js/home.js"></script>
+</body>
+
+</html>
