@@ -37,22 +37,24 @@ function checkReady() {
 
 $('#basketball').click(function() {
     catagory = "basketball";
-   $('#catagory').toggle(); 
+    $('#catagory').toggle(); 
     $('#landing').toggle();
 
     socket.emit('catagory', 'basketball');
 });
+
 $('#news').click(function() {
     catagory = "news";
-   $('#catagory').toggle(); 
+    $('#catagory').toggle(); 
     $('#landing').toggle();
 
     socket.emit('catagory', 'news');
 
 });
+
 $('#anything').click(function() {
     catagory = "anything";
-    ('#catagory').toggle();
+    $('#catagory').toggle();
     $('#landing').toggle();
 
     socket.emit('catagory', 'anything');
