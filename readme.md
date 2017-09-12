@@ -11,6 +11,8 @@ A simple node app that lets you video chat and message with random people like c
 
 # Bugs / Known Issues
 - For some reason, it doesnt work with windows or ubuntu (only works on mac).
+- Using the back button on the search bar doesnt actually do anything because this is a single page application.
+Moreover, It actually adds another 'socket id' to the list without removing the old id.
 
 # How to run: 
 1. make sure you have nodeJS installed.
